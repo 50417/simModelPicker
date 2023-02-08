@@ -1,4 +1,4 @@
-import ImportSLNETtoDynamoDB from './setupHelpers/ImportSLNETtoDynamoDB'
+
 import SearchComponent from './searchPage/SearchComponent'
 
 const App = ()=> {

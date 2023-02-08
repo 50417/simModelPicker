@@ -8,8 +8,7 @@ import {
   Heading,
   Text,
   TextField,
-  View,
-  Card
+  View
 } from "@aws-amplify/ui-react";
 import {listGitHubProjects} from '../graphql/queries'
 import 
