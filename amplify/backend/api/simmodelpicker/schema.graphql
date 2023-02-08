@@ -1,0 +1,36 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+type GitHubProjects @model {
+  id: ID!
+  repo_name: String!
+  owner_name: String!
+  is_private: Boolean!
+  project_url: String!  
+  Description: String!
+  is_forked: Boolean!
+  api_url: String!
+  created_at: AWSDateTime!
+  updated_at: AWSDateTime!
+  pushed_at: AWSDateTime!
+  homepage_url: String!
+  size_in_kb: Int!
+  stargazers_count: Int!
+  watchers_count: Int!
+  language: String!
+  forks_count: Int!
+  open_issues_count: Int!
+  master_branch: String!
+  default_branch: String!
+  Topics: String!
+  license: String!
+  model_files: String!
+  num_model_file: Int!
+  version_sha: String!
+  repo_name_lower: String!
+  owner_name_lower: String!
+  Description_lower: String!
+  Topics_lower: String!
+  model_files_lower: String!
+}
+
