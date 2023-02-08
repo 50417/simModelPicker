@@ -4,6 +4,7 @@ import SearchComponent from './searchPage/SearchComponent'
 const App = ()=> {
  
   return (<div>
+    <ImportSLNETtoDynamoDB/>
     <SearchComponent/>
     </div>
   );
