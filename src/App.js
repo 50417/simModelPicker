@@ -1,4 +1,3 @@
-
 import SearchComponent from './searchPage/SearchComponent'
 
 const App = ()=> {
